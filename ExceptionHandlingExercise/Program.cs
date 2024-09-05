@@ -41,6 +41,9 @@ namespace ExceptionHandlingExercise
                 catch (Exception e)
                 {
                     //catches the exception
+                    // 10) Inside the catch block:
+                    // 11) In the scope of your catch you can use the following code:                  
+                   
                     
                     
                     Console.WriteLine($"It is unable to parse {item}");
@@ -49,9 +52,7 @@ namespace ExceptionHandlingExercise
             }
             
 
-            // 10) Inside the catch block:
-            // 11) In the scope of your catch you can use the following code:                  
-            // Console.WriteLine($"Unable to Parse '{character}'"); //character will be the name of each item in your collection
+          
             // Uncomment the code below to see the numbers you successfully added to the numbers list: 
             foreach (var num in numbers)
             {
